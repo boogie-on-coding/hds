@@ -1,6 +1,10 @@
+# Composer packages
 vendor/
+
+# npm
 node_modules/
 npm-debug.log
+yarn-error.log
 
 # Laravel 4 specific
 bootstrap/compiled.php
@@ -13,8 +17,16 @@ storage/*.key
 .env.*.php
 .env.php
 .env
+
+# Homestead
 Homestead.yaml
 Homestead.json
 
 # Rocketeer PHP task runner and deployment package. https://github.com/rocketeers/rocketeer
 .rocketeer/
+
+# Tests
+.phpunit.result.cache
+
+# Editor
+/.idea
